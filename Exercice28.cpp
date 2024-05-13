@@ -1,3 +1,10 @@
+/*
+Transformer le programme (fonction + main) écrit dans l’exercice précédent de
+manière que la fonction ne dispose plus que de 2 arguments, le caractère
+indiquant la nature de l’opération à effectuer étant précisé, cette fois, à l’aide
+d’une variable globale.
+*/
+
 #include <iostream>
 using namespace std ;
 char op ;
@@ -30,3 +37,15 @@ int main()
   op = '/' ;
   cout << "leur quotient est : " << oper (x, y) << "\n" ;
 }
+
+/* Résultat :
+donnez deux nombres réels : 5
+10
+leur somme est : 15
+leur différence est : -5
+leur produit est : 50
+leur quotient est : 0.5
+
+
+=== Code Execution Successful ===
+*/
